@@ -9,13 +9,13 @@
     <androidx.constraintlayout.widget.ConstraintLayout
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
-       android:padding="16dp"
        tools:context=".MainActivity">
 
         <ImageView
             android:id="@+id/iconDayNight"
             android:layout_width="24dp"
             android:layout_height="24dp"
+            android:layout_margin="16dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             android:src="@drawable/bulb"
@@ -71,8 +71,9 @@
            android:layout_marginTop="32dp"
            android:fontFamily="@font/calibri"
            android:text="I want to:"
+           android:layout_marginStart="16dp"
            android:textColor="@color/colorAccent"
-           android:textSize="18dp"
+           android:textSize="20dp"
            android:textStyle="bold"
            app:layout_constraintStart_toStartOf="parent"
            app:layout_constraintTop_toBottomOf="@+id/text_find_right_command" />
@@ -83,6 +84,8 @@
            android:layout_height="wrap_content"
            android:layout_marginTop="16dp"
            app:cardCornerRadius="4dp"
+           android:layout_marginStart="16dp"
+           android:layout_marginEnd="16dp"
            app:cardUseCompatPadding="true"
            app:layout_constraintEnd_toEndOf="parent"
            app:layout_constraintStart_toStartOf="parent"
@@ -101,8 +104,7 @@
                android:hint="..."
                android:padding="12dp"
                android:inputType="textNoSuggestions"
-               android:textColor="@color/colorPrimary"
-               android:textSize="14sp"
+               android:textSize="16dp"
                android:textStyle="bold"
                tools:text="add" />
 

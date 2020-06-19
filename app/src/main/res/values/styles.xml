@@ -9,7 +9,7 @@
 
         <!-- Text Color. -->
         <item name="android:textColor">@android:color/black</item>
-        <item name="android:textColorPrimary">@android:color/darker_gray</item>
+        <item name="android:textColorPrimary">@android:color/black</item>
 
         <item name="android:windowActionBar">false</item>
         <item name="android:windowNoTitle">true</item>
@@ -23,7 +23,7 @@
 
         <!-- Text Color. -->
         <item name="android:textColor">@android:color/white</item>
-        <item name="android:textColorPrimary">@android:color/darker_gray</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
 
         <item name="android:windowActionBar">false</item>
         <item name="android:windowNoTitle">true</item>

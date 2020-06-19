@@ -9,12 +9,14 @@
         android:roundIcon="@drawable/git_icon"
         android:supportsRtl="true"
         android:theme="@style/LightTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".SplashScreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            </intent-filter></activity>
+        <activity android:name=".InformationActivity" />
+        <activity android:name=".MainActivity">
         </activity>
     </application>
 
